@@ -12,8 +12,10 @@
   * Text cleaning using NLTK 
   * Topic modeling done with CountVectorizer and NMF
   * Recommendations using cosine similarity 
+  * https://dm-proj3.herokuapp.com/
 * Collaborative Filtering Recommender:
   * Matrix factrization done with SVD
   * Recommendations using cosine similarity 
-* Web App Built With Flask 
-  * https://dm-proj3.herokuapp.com/
+  * https://dm-proj3-2.herokuapp.com/
+* Web Apps Built With Flask 
+  
