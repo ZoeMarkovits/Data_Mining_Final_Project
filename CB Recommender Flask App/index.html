@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Beer Reommender</title>
+  <h2>Beer Recommendation System</h2>
+  <style>
+			body{
+			  background-color: SlateBlue;
+			  font-family: "Times New Roman", Times, serif;
+			}
+			.container {
+			  font-size: x-large;
+			 	margin: 10 auto;
+			 	width: 80%;
+			 	max-width: 960px;
+			  border: 10px #667292;
+				border-radius: 10px;
+			}
+			.submissionfield {
+			  width: 290px;
+			  height: 390px;
+			  border: 1px
+			  solid #999999;
+			  padding: 5px;
+			}
+      h2{
+        color: powderblue;
+      }
+      h3{
+        color: powderblue;
+      }
+      input{
+        height:55px;
+        width:300px;
+        background-color: powderblue;
+        position: relative;
+        left: 20px;
+        font-size: 12px;
+      }
+  </style>
+</head>
+<body>
+<h3>Find your new favorite beer! Enter a beer you like and we'll give you some similar suggestions:</h3>
+<div>
+  <form action="/result" method="POST">
+    <br>
+    <br>
+    <label for="user_beer"></label>
+    <input type="text" id="user_beer" name="user_beer">
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
