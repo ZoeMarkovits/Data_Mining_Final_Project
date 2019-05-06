@@ -10,16 +10,18 @@ from scipy.sparse import coo_matrix
 
 app = flask.Flask(__name__)
 
-with open('cf_df.pkl', 'rb') as f:
-    cf_df = pickle.load(f)
+with open('cf_df.pkl', 'rb') as a:
+    cf_df = pickle.load(a)
 
-with open('ratings_matrix.pkl', 'rb') as g:
-    ratings_matrix = pickle.load(g)
+with open('ratings_matrix.pkl', 'rb') as b:
+    ratings_matrix = pickle.load(b)
 
+with open('svd.pkl', 'rb') as c:
+    svd = pickle.load(c)
 
-svd = TruncatedSVD(n_components=200)
-X = coo_matrix((ratings_matrix.Review_Score, (ratings_matrix.Username_ID, ratings_matrix.Beername_ID)))
-svd_out = svd.fit_transform(X)
+with open('svd_out.pkl', 'rb') as d:
+    svd_out = pickle.load(d)
+
 
 
 @app.route('/')
