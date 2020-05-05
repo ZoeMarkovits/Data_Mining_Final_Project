@@ -1,5 +1,5 @@
-# Data_Mining_Project_Three
-## Data Mining - CSC 84040: Project Three 
+# Data_Mining_Final_Project
+## Data Mining - CSC 84040: Final Project
 
 #### Data Source:
 * Data Scraped from BeerAdvocate: https://www.beeradvocate.com/
